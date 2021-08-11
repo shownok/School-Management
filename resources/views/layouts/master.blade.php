@@ -12,10 +12,10 @@
                     try{ace.settings.loadState('main-container')}catch(e){}
                 </script>
                 <div class="row">
-                    <div class="col-xs-2">
+                    <div class="col-md-2">
                         @include('layouts.includes.menu')
                     </div>
-                    <div class="col-xs-10">
+                    <div class="col-md-10">
                         @yield('content')
                     </div>
                 </div>
