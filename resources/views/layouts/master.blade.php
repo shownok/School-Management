@@ -11,8 +11,14 @@
                 <script type="text/javascript">
                     try{ace.settings.loadState('main-container')}catch(e){}
                 </script>
-               @include('layouts.includes.menu')
-                 @yield('content')
+                <div class="row">
+                    <div class="col-xs-2">
+                        @include('layouts.includes.menu')
+                    </div>
+                    <div class="col-xs-10">
+                        @yield('content')
+                    </div>
+                </div>
                 @include('layouts.includes.footer')
                 <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
                     <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
