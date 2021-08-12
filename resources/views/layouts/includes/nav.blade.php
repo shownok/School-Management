@@ -6,9 +6,9 @@
                     <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                     @if(isset($generalSetting->institute))
                         {{$generalSetting->institute}}
-                    <strong class="text-capitalize orange2"> IMS </strong>
+                    <strong class="text-capitalize orange2"> School </strong>
                     @else
-                        UNLIMITED Edu Firm
+                        Ideal 
                     @endif
                 </small>
             </a>

@@ -3,6 +3,9 @@ body,
 html {
   min-height: 100%;
 }
+div#main-container {
+  margin-top: 8px;
+}
 .alert,
 .well {
   border-radius: 0;
@@ -19,7 +22,7 @@ html {
 body {
   background-color: #e4e6e9;
   padding-bottom: 0;
-  font-family: "Open Sans";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   color: #393939;
   line-height: 1.5;
@@ -92,10 +95,10 @@ li.divider:before {
   padding: 8px 20px 24px;
 }
 .page-header {
-  margin: 0 0 12px;
-  border-bottom: 1px dotted #e2e2e2;
+  margin: 0 0 20px;
   padding-bottom: 16px;
   padding-top: 7px;
+  border-bottom: none;
 }
 .page-header h1 {
   padding: 0;
@@ -998,7 +1001,7 @@ pre.prettyprint {
   -webkit-box-shadow: none;
   box-shadow: none;
   min-height: 45px;
-  background: #438eb9;
+  background: rgb(51 4 251 / 70%);
 }
 .navbar .navbar-link,
 .navbar .navbar-text {
@@ -1106,7 +1109,7 @@ pre.prettyprint {
   background-color: #2c7659;
 }
 .ace-nav > li.light-blue > a {
-  background-color: #62a8d1;
+  background-color: transparent;
 }
 .ace-nav > li.light-blue > a:focus,
 .ace-nav > li.light-blue > a:hover,
@@ -1866,7 +1869,7 @@ pre.prettyprint {
   padding-right: 0;
 }
 .sidebar:before {
-  display: block;
+  display: none;
   width: inherit;
   position: absolute;
   top: 0;
@@ -2815,7 +2818,7 @@ body.mob-safari .sidebar.sidebar-fixed {
     padding-top: 3px;
   }
   .sidebar.h-sidebar:before {
-    display: block;
+    display: none;
     position: absolute;
     z-index: -1;
     left: 0 !important;
@@ -19920,7 +19923,7 @@ input.typeahead.scrollable ~ .tt-menu {
     border-right-color: #79b0ce;
   }
   .no-skin .sidebar.h-sidebar .nav-list > li.active:before {
-    background-color: #2b7dbc;
+    background-color: rgb(51 4 251 / 60%);
   }
   .no-skin .sidebar.h-sidebar .nav-list > li.active > a:after {
     border-width: 0 0 2px;

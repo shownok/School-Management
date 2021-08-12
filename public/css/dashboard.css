@@ -28,57 +28,59 @@
 */
 
 /*Dashboard Card*/
-.dash-card{
-    /*border-radius: 25px 0px 25px 0px;*/
-    border-radius: 3px;
-    box-shadow: 2px 4px 7px;
+.dash-card {
+  /* border-radius: 25px 0px 25px 0px; */
+  border-radius: 23px;
+  background: #e3e3e35c;
+  box-shadow: rgb(51 4 251 / 22%) 5px 6px, rgb(51 4 251 / 22%) 10px 10px,
+    rgb(51 4 251 / 20%) 15px 15px, rgb(51 4 251 / 5%) 0px 0px;
 }
 .dash-card.card-blue {
-    background: #3e5f98;
+  background: #3e5f98;
 }
 
 .dash-card.card-yellow {
-    background: #c17707;
+  background: #c17707;
 }
 .dash-card.card-green {
-    background: #38883e;
+  background: #38883e;
 }
 .dash-card.card-red {
-    background: #fc4349;
+  background: #fc4349;
 }
 
 .dash-card.card-softred {
-    background: #FF3D67;
+  background: #ff3d67;
 }
 
 .dash-card.card-sky {
-    background: #0b7594;
+  background: #0b7594;
 }
 .dash-card.card-purple {
-    background: #59045a;
+  background: #59045a;
 }
 
 .card-block {
-    padding: 5px 5px 5px 5px !important;
-    text-align: center;
+  padding: 5px 5px 5px 5px !important;
+  text-align: center;
 }
 .dash-card.card-title {
-    font-size: 28px !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #fff;
-    margin: 5px 0 0;
+  font-size: 28px !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  margin: 5px 0 0;
 }
 .dash-card.card-text {
-    font-size: 18px !important;
-    color: #fff;
-    margin: 0;
+  font-size: 18px !important;
+  color: #fff;
+  margin: 0;
 }
 
-.easy-link-menu{
-    text-decoration: none !important;
+.easy-link-menu {
+  text-decoration: none !important;
 }
 
-.dash-card.easy-link-menu a{
-    line-height: 30px;
+.dash-card.easy-link-menu a {
+  line-height: 30px;
 }
