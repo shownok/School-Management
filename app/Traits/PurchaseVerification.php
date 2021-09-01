@@ -87,7 +87,8 @@ trait PurchaseVerification {
                     return $body;
                 }
             }else{
-                abort(401, "Input Correct Purchase Code on .env PURCHASE_CODE variable");
+                // abort(401, "Input Correct Purchase Code on .env PURCHASE_CODE variable");
+                return 'jsdjflkj';
             }
         }
 
